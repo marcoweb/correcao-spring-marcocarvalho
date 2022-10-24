@@ -16,11 +16,15 @@
         <form action="/alunos/insert" method="post">
             <div class="form-group">
                 <label for="nome">Nome</label>
-                <input class="form-control" type="text" name="nome" placeholder="Nome do Gênero" />
+                <input class="form-control" type="text" name="nome" placeholder="Nome do Aluno" />
             </div>
             <div class="form-group">
                 <label for="idade">Idade</label>
                 <input class="form-control" type="number" name="idade" />
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso</label>
+                <input class="form-control" type="text" name="curso" placeholder="Nome do Curso" />
             </div>
             <br />
             <a class="btn btn-primary" href="/alunos/list">Voltar</a>
